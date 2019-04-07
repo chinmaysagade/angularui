@@ -1,0 +1,35 @@
+setting up angular environment:
+================================
+
+** make sure node > 8.0
+
+sudo apt install nodejs
+sudo apt install npm
+npm install -g typescript
+
+verify versions:
+ng version
+
+angular material
+===================
+sudo ng new retailui
+cd retailui
+sudo npm install --save @angular/material @angular/cdk @angular/animations @angular/http hammerjs
+npm install chart.js --save
+npm install ng2-charts@2.2.2 --save
+npm install chartjs-plugin-datalabels --save
+sudo npm i bootstrap
+
+create component:
+=================
+ng g c <component_name>
+
+
+create service:
+=================
+ng g c spark
+
+
+
+https://bootswatch.com/flatly/
+
